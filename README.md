@@ -54,4 +54,10 @@ chmod +x /usr/local/brook-pf
 ```
 接下来进入脚本依次执行第10，11，12项。
 
+在执行第11项时可能会出现无法下载的问题，请根据系统类型下载项目内的**brook-pf_debian** 或 **brook-pf_centos**
+
+下载完后改名为 **brook-pf**，上传至 **/etc/init.d/** ，然后执行：
+```
+chmod +x /etc/init.d/brook-pf
+```
 Enjoy~
